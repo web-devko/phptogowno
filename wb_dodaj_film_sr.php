@@ -10,6 +10,7 @@ $rozszerzenie = $_POST["rozszerzenie"];
 $grupa = $_POST["grupa"];
 $autor = $_POST["autor"];
 $null = NULL;
+$siema = 'jebać disa';
 $wlasnosc_sr = pow(2, $_SESSION["id_u"]); 
 if ($grupa == "grupowy") {
     $wlasnosc_sr = wd_ustal_wlasnosc_sr($_SESSION["id_gr"]);
